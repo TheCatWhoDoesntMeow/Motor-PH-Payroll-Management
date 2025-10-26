@@ -1,0 +1,368 @@
+Motor PH Payroll Management System - Detailed Development Prompt
+Project Overview
+Build a comprehensive, functional web application for Motor PH's payroll management that handles employee attendance, leave management, overtime tracking, tax calculations, and payroll processing with transparency for both employees and HR administrators.
+
+Application Structure & Layout
+A. Authentication & User Management
+Login System:
+
+Employee Default Login: Email: employee@motorph.com | Password: emph123
+
+Admin Default Login: Email: admin@motorph.com | Password: aph123
+
+Personalized Employee Logins: Individual credentials for all employees with customized profiles
+
+Role-based Access Control: Different permissions for employees, payroll staff, and administrators
+
+Pre-configured Employee Accounts:
+
+Daniel Lee – Payroll Staff Manager
+
+Rachel Martinez – Payroll Staff
+
+Melissa Cruz – Payroll Staff
+
+Miguel Torres – Payroll Staff
+
+John Rafael Catro – Sales and Marketing Manager
+
+Beatriz Santos – Customer Service and Relations Manager
+
+Frederick Romualdez – Account Manager
+
+Carlos Ian Martinez – Supply Chain & Logistics Manager
+
+B. Navigation & Sidebar Menu
+HR/Admin Sidebar:
+
+Dashboard Overview
+
+Employee Management
+
+Attendance Calendar & Tracking
+
+Leave Request Approvals
+
+Overtime Management
+
+Payroll Generator
+
+Tax & Deduction Reports
+
+Policy Information Hub
+
+System Administration
+
+Employee Sidebar:
+
+Personal Dashboard
+
+My Attendance Records
+
+Leave Request Submission
+
+Overtime Tracking
+
+Payroll History & Details
+
+Tax Breakdown View
+
+Personal Profile
+
+Policy Reference
+
+Core Features Implementation
+1. Employee Dashboard
+Top Section - Welcome & Key Metrics:
+
+"Welcome, [Employee Name]" personalized greeting
+
+Next Pay Date with countdown
+
+Current Net Pay: ₱32,543.00 (formatted)
+
+Base Salary amount
+
+Total Deductions summary
+
+Total Leaves available/used
+
+Total Absences count
+
+Total Overtime Hours
+
+Allowances breakdown
+
+Middle Section - Tax Deduction Breakdown:
+
+PhilHealth contribution details
+
+Pag-IBIG fund deductions
+
+SSS contributions breakdown
+
+TIN and withholding tax calculations
+
+Total deductions summary
+
+Bottom Section - Salary Records:
+
+Historical payroll data
+
+Expandable monthly breakdowns
+
+Past deduction details
+
+Downloadable payslips
+
+Year-to-date earnings summary
+
+2. Attendance Management System
+Calendar Features:
+
+Monthly calendar view with color-coded status
+
+Present (Green), Absent (Red), Late (Orange), Overtime (Blue)
+
+Employee dropdown selector for HR/admin view
+
+Individual employee view for personal tracking
+
+Late arrival tracking with minute calculations
+
+Overtime hour accumulation
+
+Daily attendance notes and remarks
+
+3. Leave Management Module
+Leave Request Form:
+
+Dropdown for Leave Type: Vacation, Sick, Emergency, Maternity, Paternity, Bereavement
+
+Start Date and End Date picker
+
+Reason text area with character limit
+
+Attachment upload capability
+
+Real-time leave balance display
+
+Leave Tracker:
+
+Pending approval status
+
+Approved leave history
+
+Rejected requests with reasons
+
+Leave balance tracking
+
+Manager approval workflow
+
+4. Overtime Management System
+Overtime Calculator:
+
+Automatic overtime detection from attendance
+
+Manual overtime entry form
+
+Rate multiplier calculations (regular vs. holiday)
+
+Night differential computations
+
+Real-time overtime earnings preview
+
+Approval Workflow:
+
+Overtime submission form
+
+Manager approval queue
+
+Automatic notifications for pending approvals
+
+Historical overtime records
+
+Overtime policy compliance checking
+
+Overtime Policy Information Tab:
+
+Company overtime policies
+
+Rate structures and multipliers
+
+Approval procedures
+
+Legal compliance information
+
+FAQ section
+
+5. Automated Tax & Deduction System
+Tax Calculation Engine:
+
+SSS Contributions: Automatic bracket calculations
+
+PhilHealth: 3% monthly premium computation
+
+Pag-IBIG: Fixed monthly deductions
+
+Withholding Tax: BIR tax table implementation
+
+Real-time deduction previews
+
+Tax Breakdown Views:
+
+Employee-facing detailed breakdown
+
+HR comprehensive reporting
+
+Government form preparation
+
+Tax filing assistance information
+
+6. Payroll Processing Center
+Payroll Generator:
+
+Employee selection interface
+
+Pay period configuration
+
+Bulk payroll processing
+
+Individual employee payroll generation
+
+Preview before finalization
+
+PDF payslip generation
+
+Payroll Summary (HR/Admin):
+
+Company-wide payroll overview
+
+Department-wise breakdown
+
+Tax liability summaries
+
+Payment schedule management
+
+Audit trail and history
+
+7. Salary History & Records
+Automated History Tracking:
+
+Monthly salary records
+
+Bonus and incentive tracking
+
+Deduction history
+
+Allowance changes over time
+
+Year-end summaries and reports
+
+8. Notification & Alert System
+Automated Notifications:
+
+Payroll processing confirmations
+
+Leave approval status updates
+
+Overtime request decisions
+
+Policy update announcements
+
+System maintenance alerts
+
+Error Resolution System:
+
+Payroll discrepancy alerts
+
+Tax calculation warnings
+
+Attendance conflict notifications
+
+Missing information prompts
+
+Resolution tracking and logging
+
+9. Policy Information Hub
+Centralized Policy Repository:
+
+Company policies and procedures
+
+Government compliance information
+
+Tax regulation updates
+
+Employee handbook
+
+FAQ and help documents
+
+Enhanced Features (Good to Have)
+HR Chat Assistant
+AI-powered HR queries
+
+Policy clarification bot
+
+Payroll question answering
+
+24/7 automated support
+
+Escalation to human HR when needed
+
+Feedback & Acknowledgement Module
+Employee feedback collection
+
+Policy acknowledgement tracking
+
+Suggestion submission system
+
+HR response management
+
+Continuous improvement tracking
+
+Technical & Design Specifications
+Design Requirements
+Primary Font: Proxima Nova throughout the application
+
+Currency Format: Philippine Peso (₱) - Example: ₱32,543.00
+
+Color Scheme: Professional, accessible, Motor PH brand-aligned
+
+Responsive Design: Mobile-friendly and desktop optimized
+
+User Experience: Intuitive navigation with minimal clicks to key features
+
+Data Security & Privacy
+Role-based data access controls
+
+Secure employee personal information
+
+Encrypted payroll data storage
+
+Audit trails for all sensitive operations
+
+Compliance with data privacy regulations
+
+Performance Requirements
+Fast payroll processing for 100+ employees
+
+Real-time attendance tracking
+
+Quick tax calculation responses
+
+Efficient report generation
+
+Scalable architecture for company growth
+
+Success Metrics
+Reduced payroll processing time by 70%
+
+99% accuracy in tax calculations
+
+Employee self-service adoption rate > 90%
+
+HR administrative workload reduction by 60%
+
+100% compliance with Philippine tax regulations
+
+This comprehensive payroll management system will streamline Motor PH's operations while providing transparency and empowerment to employees through accessible, real-time payroll information.
